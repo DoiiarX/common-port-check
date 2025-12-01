@@ -16,16 +16,18 @@
 ```bash
 uv pip install git+https://github.com/DoiiarsX/common-port-check
 ```
-or
-```
+
+或
+
+```bash
 uv pip install -e .
 ```
 
-或从源码安装：
+或者从源码安装：
 
 ```bash
 git clone https://github.com/DoiiarsX/common-port-check.git
-cd common_port_check
+cd common-port-check
 uv pip install -e .
 ```
 
