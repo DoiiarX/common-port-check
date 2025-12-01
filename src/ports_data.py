@@ -165,6 +165,26 @@ COMMON_SOFTWARE_PORTS: Set[int] = {
     30009,
     30010,
     32767,  # Kubernetes NodePort 范围结束
+    # 文件同步和下载工具
+    8384,   # Syncthing Web UI
+    22000,  # Syncthing 文件同步
+    # AI和开发工具
+    11434,  # Ollama AI服务
+    # 媒体服务器
+    8096,   # Jellyfin 媒体服务器
+    # 远程桌面和游戏串流
+    47984,  # Moonlight 游戏串流 (TCP)
+    47989,  # Moonlight 游戏串流 (UDP)
+    47998,  # Moonlight 游戏串流 (UDP)
+    47999,  # Moonlight 游戏串流 (UDP)
+    48000,  # Moonlight 游戏串流 (UDP)
+    8000,   # Parsec 远程桌面 (备用)
+    8001,   # Parsec 远程桌面 (备用)
+    5900,   # Parsec VNC (备用)
+    # 密码管理器
+    8080,   # 常用web 本地服务 (如果启用)
+    # 下载工具 (已在BitTorrent部分包含6881-6889)
+    # Discord 主要使用443和动态端口，不添加固定端口
 }
 
 
