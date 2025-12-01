@@ -1,3 +1,5 @@
+[中文] | [English](README_EN.md)
+
 # common-port-check
 
 专业的Python库，用于检查端口是否是系统的常用端口。
@@ -130,9 +132,22 @@ SystemType.COMMON_SOFTWARE  # 常用软件端口（跨平台）
   - 8000-8001: Django等
   - 9000: SonarQube
   - 9090: Prometheus
+- **文件同步和下载工具**:
+  - 6881-6889: BitTorrent / Aria2
+  - 8384: Syncthing Web UI
+  - 22000: Syncthing 文件同步
+- **AI和开发工具**:
+  - 11434: Ollama AI服务
+- **媒体服务器**:
+  - 8096: Jellyfin 媒体服务器
+- **远程桌面和游戏串流**:
+  - 47984: Moonlight 游戏串流 (TCP)
+  - 47989-48000: Moonlight 游戏串流 (UDP)
+  - 8000-8001: Parsec 远程桌面
+  - 5900: Parsec VNC
 - **其他**:
-  - 6881-6889: BitTorrent
   - 30000-32767: Kubernetes NodePort范围
+  - 8080: 常用Web本地服务
 
 ## 开发
 
