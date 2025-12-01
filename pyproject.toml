@@ -36,10 +36,10 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/DoiiarsX/common-port-check"
-Documentation = "https://github.com/DoiiarsX/common-port-check#readme"
-Repository = "https://github.com/DoiiarsX/common-port-check"
-Issues = "https://github.com/DoiiarsX/common-port-check/issues"
+Homepage = "https://github.com/DoiiarX/common-port-check"
+Documentation = "https://github.com/DoiiarX/common-port-check#readme"
+Repository = "https://github.com/DoiiarX/common-port-check"
+Issues = "https://github.com/DoiiarX/common-port-check/issues"
 
 [tool.hatchling.build]
 packages = ["src"]

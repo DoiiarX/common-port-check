@@ -14,7 +14,7 @@
 ## 安装
 
 ```bash
-uv pip install git+https://github.com/DoiiarsX/common-port-check
+uv pip install git+https://github.com/DoiiarX/common-port-check
 ```
 
 或
@@ -26,7 +26,7 @@ uv pip install -e .
 或者从源码安装：
 
 ```bash
-git clone https://github.com/DoiiarsX/common-port-check.git
+git clone https://github.com/DoiiarX/common-port-check.git
 cd common-port-check
 uv pip install -e .
 ```
